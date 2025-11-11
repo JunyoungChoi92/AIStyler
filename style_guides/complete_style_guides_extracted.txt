@@ -1,0 +1,542 @@
+# 완전한 RAW 스타일 가이드 추출 (총 83개 규칙)
+
+## 1. 헤드라인 스타일가이드 (H01-H11) - 11개 규칙
+
+### Style Guide H01
+- The first letter of the first word of the headline should be capitalized. The first letter of the first word in the headline is capitalized. The rest is treated as lowercase. This rule does not apply to abbreviations or acronyms.
+Correct: Korea to launch economic consultative bodies to brace for Trump 2.0
+Incorrect: korea to launch economic consultative bodies to brace for Trump 2.0
+Correct: KDI says monetary tightening largely helped slow inflation
+Incorrect: Kdi says monetary tightening largely helped slow inflation
+Correct: IU files complaints against 180 malicious commenters
+Incorrect: Iu files complaints against 180 malicious commenters
+Correct: N. Korea's Kim finalizes defense pact with Russia
+Incorrect: N. korea's Kim finalizes defense pact with Russia
+
+### Style Guide H02
+- In headlines, quotations should be single quotation, not double quotations
+Correct: Singer Ailee to marry 'Single's Inferno' participant Choi Si-hoon in April
+Incorrect: Singer Ailee to marry "Single's Inferno" participant Choi Si-hoon in April
+
+### Style Guide H03
+- Verb Usage: Use the infinitive form ("to") for future actions instead of future tense verbs like "will."
+Correct: Company to unveil new product line
+Incorrect: Company will unveil new product line
+
+### Style Guide H04
+- Use present tense for ongoing or completed actions to create immediacy.
+Correct: Team claims championship
+Incorrect: Team claimed championship
+
+### Style Guide H05
+- Use single quotation marks in headlines for titles of songs, movies, books, and articles.
+Correct: 'Frog' to premiere on streaming platform
+Incorrect: "Frog" to premiere on streaming platform
+
+### Style Guide H06
+- Keep headlines short and impactful, omitting articles (a, an, the) unless necessary for clarity.
+Correct: City announces new public transport initiative
+Incorrect: City announces a new public transport initiative
+
+### Style Guide H07
+- Use clear and specific language to convey the core message of the article.
+Correct: University to host international science conference
+Incorrect: University could host international science conference
+
+### Style Guide H08
+- Put important word ahead of other words
+Correct: Jung Woo-sung post triggers backlash for Blue Dragon Film Awards
+Incorrect: Blue Dragon Film Awards criticized for Jung Woo-sung post
+
+### Style Guide H09
+- Don't use period at end of headlines
+Correct: Fundraiser collects 1 million won
+Incorrect: Fundraiser collects 1 million won.
+
+### Style Guide H10
+- In the headline, instead of "percent," use the % symbol
+Correct: Inflation rises by 10% in October
+Incorrect: Inflation rises by 10 percent in October
+
+### Style Guide H11
+- In the headline, instead of "won" for Korean currency, use "W" in front of the amount of money.
+Correct: Samsung's Q2 profit hits W4.6 trillion
+Incorrect: Samsung's Q2 profit hits 4.6 trillion won
+
+## 2. 기사 본문 스타일가이드 (A01-A39) - 39개 규칙
+
+### Style Guide A01
+- When writing numbers one to nine, spell them out as words except when directly preceding units (percent, million, degrees).
+Correct: "There are five apples."
+Correct: "We expect a 5 percent increase."
+Incorrect: "There are 5 apples."
+Incorrect: "We expect a five percent increase."
+
+### Style Guide A02
+- Capitalization of Titles: When a title appears before a person's name, it should be capitalized (e.g., "Samsung Electronics Chairman Lee Jae-yong"). When the title appears after the name, it should be lowercase (e.g., "Lee Jae-yong, Samsung Electronics chairman").
+Correct: "Samsung Electronics Chairman Lee Jae-yong attends the meeting with global leaders."
+Incorrect: "Samsung Electronics chairman Lee Jae-yong attends the meeting with global leaders."
+
+### Style Guide A03
+- Same Month, Date Range: When indicating a range of dates within the same month, only include the day.
+- Different Months, Full Range: When the range spans different months, include both the month and day for clarity.
+Correct (Same Month): "The festival will run from April 28 to 30 in Seoul."
+Incorrect (Same Month): "The festival will run from April 28 to April 30 in Seoul."
+Correct (Different Months): "The exhibition is scheduled to take place from April 28 to May 6."
+Incorrect (Different Months): "The exhibition is scheduled to take place from April 28 to 6."
+
+### Style Guide A04
+- Always clearly specify the current date to the LLM when instructing on dates.
+Within 7 days: Use days of the week.
+Older than 7 days: Use the exact date.
+Example instruction: "If today's date is Nov. 21, use weekdays for incidents within 7 days, and full dates otherwise."
+Correct: "The fire broke out last Monday."
+Incorrect: "The fire broke out, Nov. 27."
+
+### Style Guide A05
+- Same Month, Date Range: When indicating a range of dates within the same month, only include the day.
+- Different Months, Full Range: When the range spans different months, include both the month and day for clarity.
+Correct (Same Month): "The festival will run from April 28 to 30 in Seoul."
+Incorrect (Same Month): "The festival will run from April 28 to April 30 in Seoul."
+Correct (Different Months): "The exhibition is scheduled to take place from April 28 to May 6."
+Incorrect (Different Months): "The exhibition is scheduled to take place from April 28 to 6."
+
+### Style Guide A06
+- Avoid redundant verbs ("located," "held") and strictly use prepositions "at" or "in."
+Explicit forbidden expressions: located, held, held at, located in
+Explicit allowed expressions: at, in
+Correct: "The president delivers a speech at Cheong Wa Dae."
+Correct: "The press briefing takes place in the National Assembly."
+Incorrect: "The president delivers a speech during a ceremony held at Cheong Wa Dae."
+Incorrect: "The press briefing is located in the National Assembly."
+
+### Style Guide A07
+- Currency conversion: If the first sentence shows the Korean won, the amount is shown in converted dollars in parentheses. The following sentences use only the Korean won.
+Correct: The product costs 50,000 won ($38).
+Incorrect: The product costs 50,000 won.
+
+### Style Guide A08
+- Explicitly state that dates must always use numerals (1, 2, 3), never spelled out.
+Correct: "The event is scheduled for Dec. 5, 2022."
+Correct: "His birthday is July 10, 1980."
+Incorrect: "The event is scheduled for December fifth, two thousand twenty-two."
+Incorrect: "His birthday is the tenth of July, nineteen eighty."
+
+### Style Guide A09
+- The Korean name is written with the family name first and the hyphen-connected given name following it. (e.g. Jung Woo-sung, Moon Ga-bi).
+Correct: GS E&C CEO Huh Yoon-hong speaks during a press conference at Xi Gallery in Seoul, Monday. Yonhap
+Incorrect: GS E&C CEO Yoon-hong Huh speaks during a press conference at Xi Gallery in Seoul, Monday. Yonhap
+
+### Style Guide A10
+- Explicitly define abbreviations clearly to prevent ambiguity:
+Abbreviate months only if they contain dates (except March, April, May, June, July).
+Fully spell out if mentioning only month and year.
+Correct: "The meeting is scheduled for Nov. 15, 2023."
+Correct: "The project starts in September 2023."
+Incorrect: "The meeting is scheduled for November 15, 2023."
+Incorrect: "The project starts in Sept. 2023."
+
+### Style Guide A11
+- Acronyms: When introducing an acronym, spell out the full term on the first reference, followed by the acronym in parentheses. Subsequent references can use the acronym alone.
+Correct: National Aeronautics and Space Administration (NASA) launched a new mission. NASA will explore distant planets.
+Incorrect: NASA launched a new mission. NASA will explore distant planets.
+
+### Style Guide A12
+- Scientific Abbreviations: Scientific writing allows the use of certain abbreviations, but for clarity, the spelling can be specified in the first reference. After that, only abbreviations should be used.
+Correct: DNA (deoxyribonucleic acid) is a complex molecule.
+Correct: DNA is a complex molecule that carries genetic information.
+Incorrect: Deoxyribonucleic acid (DNA) is a complex molecule. Deoxyribonucleic acid carries genetic information.
+
+### Style Guide A13
+- Make explicit that numbers 10 and above, including those representing age, time, measurements, and percentages, must always be numerals. Numbers under 10 must be spelled out unless paired with larger numbers.
+Correct: "There were 15 participants."
+Correct: "Five employees and 12 clients attended."
+Incorrect: "There were fifteen participants."
+Incorrect: "5 employees and twelve clients attended."
+
+### Style Guide A14
+- Explicitly forbid the percent symbol (%) and always use the word "percent."
+Correct: "The increase was 20 percent."
+Incorrect: "The increase was 20%."
+
+### Style Guide A15
+- Punctuation Within Quotations: In AP Style, punctuation marks such as commas and periods are placed inside the quotation marks, regardless of whether they are part of the quoted material.
+Correct: "I'll be there at 9 a.m.," she said.
+Incorrect: "I'll be there at 9 a.m", she said.
+
+### Style Guide A16
+- Quoting Full Sentences: When quoting a complete sentence, the ending punctuation mark (period, question mark, or exclamation point) is placed inside the quotation marks.
+Correct: He exclaimed, "What a beautiful sunset!"
+Incorrect: He exclaimed, "What a beautiful sunset"!
+
+### Style Guide A17
+- Single Quotation Marks: Single quotation marks are used within double quotation marks when quoting material inside another quote.
+Correct: He said, "She told me, 'I'll be there by 7 p.m.'"
+Incorrect: He said, "She told me, "I'll be there by 7 p.m.""
+Incorrect: He said, 'She told me, 'I'll be there by 7 p.m.''
+Incorrect: He said, "She told me, 'I'll be there by 7 p.m."
+
+### Style Guide A18
+- Capitalizing Titles and Job Roles: Capitalize job titles only if they directly precede the person's name.
+Correct: "The vice president will address the audience."
+Incorrect: "The Vice President will address the audience."
+
+### Style Guide A19
+- Quotations and Attribution: Use double quotation marks for direct quotes. Place commas and periods inside the quotation marks.
+Correct: "The journey of a thousand miles begins with a single step," Lao Tzu said.
+Incorrect: "The journey of a thousand miles begins with a single step", Lao Tzu said.
+Incorrect: 'The journey of a thousand miles begins with a single step,' Lao Tzu said.
+Incorrect: The journey of a thousand miles begins with a single step, Lao Tzu said.
+Incorrect: "The journey of a thousand miles begins with a single step"; Lao Tzu said.
+
+### Style Guide A20
+- Punctuation and Grammar: Use the serial comma in lists of items. Use semicolons to separate closely related independent clauses.
+Correct: She enjoys hiking, reading and painting. He was tired; nevertheless, he continued working.
+Incorrect: She enjoys hiking, reading and painting. He was tired, nevertheless, he continued working.
+
+### Style Guide A21
+- Common Errors to Avoid: Confusing "its" (possessive) with "it's" (contraction of "it is").
+Correct: The cat licked its fur. It's a beautiful day.
+Incorrect: The cat licked its fur. Its a beautiful day.
+Correct: The dog wagged its tail because it's excited.
+Incorrect: The dog wagged it's tail because its excited.
+
+### Style Guide A22
+- Put all movie and song titles in double quotations in text.
+Correct: Singer Ailee has announced her upcoming wedding to Choi Si-hoon, known from Netflix's "Single's Inferno."
+Incorrect: Singer Ailee has announced her upcoming wedding to Choi Si-hoon, known from Netflix's Single's Inferno.
+
+### Style Guide A23
+- Explicitly instruct that if the event or action occurred within the current calendar year, omit the year.
+Correct: "BTS released their album Proof in June."
+Incorrect: "BTS released their album Proof in 2024."
+
+### Style Guide A24
+- If state, mention, or remark is used in a sentence, please change it to say. Please change the past tense to said.
+Correct: The manager says the report is due tomorrow.
+Incorrect: The manager states the report is due tomorrow.
+Correct: She says she enjoys working remotely.
+Incorrect: She mentions she enjoys working remotely.
+Correct: He says he likes the new office design.
+Incorrect: He remarks he likes the new office design.
+Correct: The professor said that the test would be postponed.
+Incorrect: The professor stated that the test would be postponed.
+Correct: She said she was excited to join the team.
+Incorrect: She mentioned she was excited to join the team.
+Correct: He said he would attend the meeting tomorrow.
+Incorrect: He remarked he would attend the meeting tomorrow.
+
+### Style Guide A25
+- Write all Seoul "-gu" as "District": In news copy, all 25 Seoul "-gu" names must be written as X District (not X-gu). e.g., Mapo District, Dongjak District, Seocho District.
+All 25 districts (use exactly these): Jongno District / Jung District / Yongsan District / Seongdong District / Gwangjin District / Dongdaemun District / Jungnang District / Seongbuk District / Gangbuk District / Dobong District / Nowon District / Eunpyeong District / Seodaemun District / Mapo District / Yangcheon District / Gangseo District / Guro District / Geumcheon District / Yeongdeungpo District / Dongjak District / Gwanak District / Seocho District / Gangnam District / Songpa District / Gangdong District
+Correct: Cheon Dae-yeop, head of the National Court Administration, speaks to reporters during his visit to the Seoul Western District Court in Mapo District, Sunday
+Incorrect: Cheon Dae-yeop, head of the National Court Administration, speaks to reporters during his visit to the Seoul Western District Court in Mapo-gu, Sunday.
+Correct: Later in the day, Yoon's supporters marched to the Constitutional Court in Jongno District
+Incorrect: Later in the day, Yoon's supporters marched to the Constitutional Court in Jongno-gu
+Note: Don't confuse District Court (court name) with the District (administrative area); both are correct in their respective uses.
+
+### Style Guide A26
+- For cultural properties, Gyeongbokgung, Changdeokgung, Deoksugung, etc. are written as Gyeongbok Palace, Changdeok Palace, Deoksu Palace, etc.
+Correct: Except for the restricted access to the Secret Garden in Changdeok Palace, all sites can be toured for free.
+Incorrect: Except for the restricted access to the Secret Garden in Changdeokgung, all sites can be toured for free.
+Incorrect: Except for the restricted access to the Secret Garden in Changdeokgung Palace, all sites can be toured for free.
+
+### Style Guide A27
+- The correct format for referring to mountains is Mount [Name]. Avoid abbreviations like Mt. or alternative formats like [Name] Mountain.
+Correct: Tourists often visit Mount Halla, a prominent feature of Jeju Island, to enjoy its scenic hiking trails.
+Incorrect: Tourists often visit Mt. Halla, a prominent feature of Jeju Island, to enjoy its scenic hiking trails.
+Incorrect: Tourists often visit Halla Mountain, a prominent feature of Jeju Island, to enjoy its scenic hiking trails.
+
+### Style Guide A28
+- Spell numbers one to nine, except directly preceding units (percent, million, degrees).
+- Always use numerals from 10 upwards.
+Correct: "There are five apples."
+Correct: "We expect a 5 percent increase."
+Correct: "There were 10 participants."
+Incorrect: "There are 5 apples."
+Incorrect: "We expect a five percent increase."
+Incorrect: "There were ten participants."
+
+### Style Guide A29
+- Clearly instruct that units of measurement (centimeters, kilometers, degrees Celsius) must always be fully written out, never abbreviated—even in repeated references.
+Correct: "The snow reached 5 centimeters."
+Correct: "The temperature fell to minus 4 degrees Celsius."
+Incorrect: "The snow reached 5 cm."
+Incorrect: "The temperature fell to minus 4°C."
+
+### Style Guide A30
+- Use "in" for areas like Yeouido, as they are considered specific locations rather than surfaces. Avoid using "on" for such places.
+Correct: The National Assembly building is located in Yeouido, Seoul's financial district.
+Incorrect: The National Assembly building is located on Yeouido, Seoul's financial district.
+
+### Style Guide A31
+- Use Joseon Dynasty to refer to the historical era of Korea. Avoid using Joseon Kingdom, as it does not accurately reflect the widely accepted naming convention.
+Correct: The Joseon Dynasty ruled Korea for over five centuries, shaping much of its cultural heritage.
+Incorrect: The Joseon Kingdom ruled Korea for over five centuries, shaping much of its cultural heritage.
+
+### Style Guide A32
+- Always use plural verbs when referring to sports teams, regardless of whether the team's name appears in plural form (e.g., The Yankees) or singular form (e.g., The Miami Heat).
+Correct: The Miami Heat are playing exceptionally well this season.
+Incorrect: The Miami Heat is playing exceptionally well this season.
+
+### Style Guide A33
+- Use singular verbs when referring to national teams, as the team represents a single entity (e.g., Korea, Germany).
+Correct: Korea defeats Thailand in the World Cup qualifier.
+Incorrect: Korea defeat Thailand in the World Cup qualifier.
+
+### Style Guide A34
+- Two-Word Usage: Use two words for child care, health care, and task force. Avoid combining them into one word or hyphenating them.
+Correct: The government introduced new policies to improve child care services.
+Correct: Universal health care is a critical topic in the upcoming election.
+Correct: A task force was formed to address climate change.
+Incorrect: The government introduced new policies to improve childcare services.
+Incorrect: Universal healthcare is a critical topic in the upcoming election.
+Incorrect: A taskforce was formed to address climate change.
+
+### Style Guide A35
+- One-Word Usage: Use birthrate as one word. Avoid separating it into two words or hyphenating it.
+Correct: The country's declining birthrate is a pressing issue for policymakers.
+Incorrect: The country's declining birth rate is a pressing issue for policymakers.
+Incorrect: The country's declining birth-rate is a pressing issue for policymakers.
+
+### Style Guide A36
+- Use toward, forward, amid, among, middle instead of towards, forwards, amidst, amongst, midst.
+Correct: "The country is moving toward a greener economy."
+Incorrect: "The country is moving towards a greener economy."
+Correct: "The protesters marched forward despite the rain."
+Incorrect: "The protesters marched forwards despite the rain."
+Correct: "The decision was made amid growing concerns."
+Incorrect: "The decision was made amidst growing concerns."
+Correct: "There is tension among the three parties."
+Incorrect: "There is tension amongst the three parties."
+Correct: "The player stood in the middle of the field."
+Incorrect: "The player stood in the midst of the field."
+
+### Style Guide A37
+- Use hyphens before and after in compound phrases like prosecutor-turned-president.
+Correct: "The prosecutor-turned-president addressed the nation in a live broadcast."
+Incorrect: "The prosecutor turned president addressed the nation in a live broadcast."
+Incorrect: "The prosecutor-turned president addressed the nation in a live broadcast."
+
+### Style Guide A38
+- Use apostrophe after the full possessive phrase, not after the abbreviation.
+Correct: "The International Monetary Fund's (IMF) forecast was released Monday."
+Incorrect: "The International Monetary Fund (IMF)'s forecast was released Monday."
+
+### Style Guide A39
+- Clearly indicate that the preferred structure is "[Name] said," except when a long explanatory clause follows.
+Correct: "I'll appeal," Trump said.
+Correct: "I'll appeal," said Trump, who recently won Iowa.
+Incorrect: "I'll appeal," said Trump.
+
+
+## 3. 캡션 스타일가이드 (C01-C33) - 33개 규칙
+
+### Style Guide C01
+- Present Tense: Use present tense to describe what is happening in the photo. Rarely, past or continuous tense may be used when adding extra context in a second sentence.
+- Description First, Explanation Later: First, describe the scene in the photo in present tense, then use a second sentence for additional context or explanation, which can include past tense if necessary.
+Correct: "People enjoy the art exhibition at the National Gallery in Seoul. The event, which began last week, highlights contemporary artists from Korea."
+Incorrect: "People enjoyed the art exhibition at the National Gallery in Seoul. The event highlighted contemporary artists from Korea."
+
+### Style Guide C02
+- Mention the person's name first, followed by their location in the photo, and their role or title OR the person's role or title, followed by their name and their location in the photo.
+Correct: "K-pop boy band BTS member Kim Tae-hyung, front row second from right, smiles at the camera during a press event."
+Incorrect: "Kim Tae-hyung, a member of BTS, front row second from right, smiles at the camera during a press event."
+
+### Style Guide C03
+- Capitalization of Titles: When a title appears before a person's name, it should be capitalized (e.g., "Samsung Electronics Chairman Lee Jae-yong"). When the title appears after the name, it should be lowercase (e.g., "Lee Jae-yong, Samsung Electronics chairman").
+- Clarity and Consistency: Ensure the title capitalization is consistent with its placement, either before or after the name, following the correct rules for formal writing.
+Correct: "Samsung Electronics Chairman Lee Jae-yong attends the meeting with global leaders."
+Incorrect: "Samsung Electronics chairman Lee Jae-yong attends the meeting with global leaders."
+
+### Style Guide C04
+- Simplify Subjects: When there are too many people involved, it becomes difficult to identify the verb. Mention only the most important person or two in the first sentence, and list the remaining individuals in a second sentence for clarity.
+Correct: "Prime Minister Han Duck-soo, center, poses with dignitaries during an event in Seoul, Monday. They are, from left, Foreign Minister Cho Tae-yul, SK Chairman Chey Tae-won, Han, and Industry Minister Ahn Duk-geun."
+Incorrect: "Prime Minister Han Duck-soo, Foreign Minister Cho Tae-yul, SK Chairman Chey Tae-won, and Industry Minister Ahn Duk-geun pose during an event in Seoul, Monday."
+
+### Style Guide C05
+- No Parentheses for Positioning: When describing a person's position in a photo, do not use parentheses. Instead, place the position after the name with commas.
+Correct: "Tom Cruise, left, poses with staff members at the premiere."
+Incorrect: "Tom Cruise (left) poses with staff members at the premiere."
+
+### Style Guide C06
+- "From left" Placement: When listing names from left to right in a photo, always place "from left" before the list of names. Avoid placing "from left" after the first name.
+Correct: "From left, RM, j-hope, Jungkook, and Jimin pose at the event."
+Incorrect: "RM, from left, j-hope, Jungkook, and Jimin pose at the event."
+Correct: "BTS members attend a ceremony in Seoul, Monday. They are, from left, RM, j-hope, Jungkook, and Jimin."
+Incorrect: "BTS members attend a ceremony in Seoul, Monday. They are RM, from left, j-hope, Jungkook, and Jimin."
+
+### Style Guide C07
+- If the incident occurred within a week of the present, use the day of the week. If the incident occurred a week ago, use the entire date.
+Correct: The fire broke out last Monday.
+Incorrect: The fire broke out, Nov. 27.
+
+### Style Guide C08
+- Korean President: When mentioning the current Korean president, do not include their location in the photo. It is assumed that the audience will recognize them.
+- Foreign Leaders: Always indicate the location (e.g., left, right) of foreign leaders, even if they are widely known figures such as Joe Biden or Xi Jinping.
+Correct: "President Yoon Suk-yeol greets U.S. President Joe Biden, right, during the bilateral talks in Seoul."
+Incorrect: "President Yoon Suk-yeol, center, greets U.S. President Joe Biden, right, during the bilateral talks in Seoul."
+
+### Style Guide C09
+- Avoid Redundancy with "Pose for a Photo": Do not use phrases like "pose for a photo" after the verb "pose," as it is already implied that people are posing for a photograph.
+- Clarity and Brevity: Ensure that the caption is clear and concise, avoiding redundant or unnecessary information.
+Correct: "President Yoon Suk-yeol and U.S. President Joe Biden pose at the bilateral meeting in Seoul."
+Incorrect: "President Yoon Suk-yeol and U.S. President Joe Biden pose for a photo at the bilateral meeting in Seoul."
+
+### Style Guide C10
+- Do not use "on" before the day of the week or the date. Use comma in front of the day.
+Correct: "People enjoy performances during the festival in Seoul, Thursday."
+Incorrect: "People enjoy performances during the festival in Seoul, on Thursday."
+
+### Style Guide C11
+- Specific Dates: When a specific date is provided, use the format "… in Seoul, May 17, 2023" or "… in Seoul in this May 17, 2023 photo."
+- Month and Year Only: If only the month and year are available, avoid writing "… in Seoul, May 2023." Instead, write "… in Seoul in May 2023" or "… in Seoul in this May 2023 photo."
+Correct (Specific Date): "People attend the event in Seoul, May 17, 2023."
+Correct (Specific Date): "People attend the event in Seoul in this May 17, 2023 photo."
+Correct (Month and Year Only): "Visitors walk through the exhibition hall in Seoul in this May 2023 photo."
+Correct (Month and Year Only): "Visitors walk through the exhibition hall in Seoul in May 2023."
+Incorrect (Month and Year Only): "Visitors walk through the exhibition hall in Seoul, May 2023."
+
+### Style Guide C12
+- Date Format Adjustment: When adapting captions from foreign sources, revise the date format. Foreign captions often use "day, month, year". Adjust as follows:
+- If the event happened within the past week, use only the day of the week (e.g., "Thursday").
+- If the event happened more than a week ago, use only the date (e.g., "April 27").
+Correct (within a week): "Protesters gather in front of the parliament in London, Thursday."
+Incorrect (within a week): "Protesters gather in front of the parliament in London, Thursday, April 27, 2024."
+Correct (more than a week ago): "Visitors attend a ceremony in Paris, April 27."
+Incorrect (more than a week ago): "Visitors attend a ceremony in Paris, Thursday, April 27, 2024."
+
+### Style Guide C13
+- Same Month, Date Range: When indicating a range of dates within the same month, only include the day.
+- Different Months, Full Range: When the range spans different months, include both the month and day for clarity.
+Correct (Same Month): "The festival will run from April 28 to 30 in Seoul."
+Incorrect (Same Month): "The festival will run from April 28 to April 30 in Seoul."
+Correct (Different Months): "The exhibition is scheduled to take place from April 28 to May 6."
+Incorrect (Different Months): "The exhibition is scheduled to take place from April 28 to 6."
+
+### Style Guide C14
+- Avoid Using "Located" or "Held": When mentioning the location of an event, avoid using redundant words like "located" or "held." Simply indicate the event and its location.
+Correct: "The president delivers a speech during a ceremony at Cheong Wa Dae."
+Incorrect: "The president delivers a speech during a ceremony held at Cheong Wa Dae."
+
+### Style Guide C15
+- Korea Times File Photos: When using a photo from the Korea Times archive, the correct attribution is "Korea Times file" and not "Korea Times photo."
+- Photographer Attribution: When mentioning the photographer, the proper format is "Korea Times photo by [Photographer's Name]" (e.g., "Korea Times photo by Shim Hyun-chul").
+Correct: "A view of downtown Seoul during rush hour. Korea Times file"
+Incorrect: "A view of downtown Seoul during rush hour. Korea Times photo."
+
+### Style Guide C16
+- No Need to Mention "Provided by" in Caption Content: When a photo is provided by a company or organization, the source should be indicated using "Courtesy of [Company Name]" at the end of the caption, not in the main caption text.
+- Clarity and Simplicity: Ensure the caption remains clear and direct, without redundant phrasing about the photo's origin.
+Correct: "A new electric vehicle model is displayed at a recent auto show. Courtesy of Hyundai Motor"
+Incorrect: "A new electric vehicle model is displayed at a recent auto show in this photo provided by Hyundai Motor. Courtesy of Hyundai Motor"
+
+### Style Guide C17
+- Mentioning "Provided by" in Caption Content: When a news agency (e.g., Yonhap, Newsis) uses a photo provided by a company, include the phrase "in this photo provided by [Company Name]" in the caption content.
+- Attributing Source to the News Agency: The source at the end of the caption should be attributed to the news agency (e.g., "Yonhap"), not the company that provided the photo.
+Correct: "A new electric vehicle model is displayed at a recent auto show in this photo provided by Hyundai Motor. Yonhap"
+Incorrect: "A new electric vehicle model is displayed at a recent auto show. Courtesy of Hyundai Motor."
+
+### Style Guide C18
+- Uniform Caption for Captured Images: When a photo is captured from a video, always use the phrase "Captured from [Platform Name]." For more clarity, include the specific channel or source when.
+Correct: "BTS performs during the concert. Captured from Big Hit Music's YouTube channel"
+Incorrect: "BTS performs during the concert. Captured from YouTube."
+Correct: "A scene from the documentary series. Captured from Netflix"
+Incorrect: "A scene from the documentary series. Captured from video."
+
+### Style Guide C19
+- Captions with Subject and Verb: If the caption contains a full sentence (subject + verb), end the sentence with a period before the source attribution.
+- Captions without Subject and Verb: If the caption is a phrase without a subject and verb, do not use a period. Instead, separate the caption and the source attribution with a slash ("/").
+Correct (Subject + Verb): President Yoon Suk Yeol speaks at a research center of Samsung Electronics in Yongin, Gyeonggi Province, Monday. Courtesy of Samsung Electronics."
+Incorrect (Subject + Verb): "President Yoon Suk Yeol speaks at a research center of Samsung Electronics in Yongin, Gyeonggi Province, Monday / Courtesy of Samsung Electronics."
+Incorrect (Subject + Verb): "President Yoon Suk Yeol speaks at a research center of Samsung Electronics in Yongin, Gyeonggi Province, Monday. / Courtesy of Samsung Electronics."
+Correct (No Subject + Verb): "A research center of Samsung Electronics / Courtesy of Samsung Electronics."
+Incorrect (No Subject + Verb): "A research center of Samsung Electronics. Courtesy of Samsung Electronics."
+Incorrect (No Subject + Verb): "A research center of Samsung Electronics. / Courtesy of Samsung Electronics."
+
+### Style Guide C20
+- No Country Name for Famous Capitals: For globally recognized capital cities like London or Paris, do not include the country name after the city (e.g., "London," not "London, U.K." or "Paris," not "Paris, France").
+Correct: "The Eiffel Tower is illuminated at night in Paris."
+Incorrect: "The Eiffel Tower is illuminated at night in Paris, France."
+
+### Style Guide C21
+- Currency Conversion: For the first instance of "won" in an article, convert it to $ and include the converted amount in parentheses. Make sure that convert only the first won into $.
+Correct: The product costs 50,000 won ($38).
+Incorrect: The product costs 50,000 won.
+
+### Style Guide C22
+- Do not abbreviate the months of March, April, May, June and July. Abbreviate the rest.
+Correct: The meeting is scheduled for Nov. 15, 2023.
+Correct: The meeting is scheduled for April 15, 2023.
+Incorrect: The meeting is scheduled for November 15, 2023.
+Incorrect: The meeting is scheduled for Apr. 15, 2023.
+
+### Style Guide C23
+- Use numerals for days and years.
+Correct: The event will take place on Dec. 5, 2022.
+Correct: He was born on July 10, 1980.
+
+### Style Guide C24
+- Remove period at the end of caption credit
+Correct: Prime Minister Han Duck-soo speaks during a plenary session at the National Assembly in Seoul, Nov. 4. Yonhap
+Incorrect: Prime Minister Han Duck-soo speaks during a plenary session at the National Assembly in Seoul, Nov. 4. Yonhap.
+
+### Style Guide C25
+- The Korean name is written with the family name first and the hyphen-connected name following it. (e.g. Jung Woo-sung, Moon Ga-bi).
+Correct: GS E&C CEO Huh Yoon-hong speaks during a press conference at Xi Gallery in Seoul, Monday. Yonhap
+Incorrect: GS E&C CEO Yoon-hong Huh speaks during a press conference at Xi Gallery in Seoul, Monday. Yonhap.
+
+### Style Guide C26
+- Put all movie and song titles in double quotations in text.
+Correct: Singer Ailee has announced her upcoming wedding to Choi Si-hoon, known from Netflix's "Single's Inferno."
+Incorrect: Singer Ailee has announced her upcoming wedding to Choi Si-hoon, known from Netflix's Single's Inferno.
+
+### Style Guide C27
+- The administrative districts are not written as Mapo-gu, Dongjak-gu, and Seocho-gu, but as Mapo District, Dongjak District, and Seocho District.
+Correct: Cheon Dae-yeop, head of the National Court Administration, speaks to reporters during his visit to the Seoul Western District Court in Mapo District, Sunday. Yonhap
+Incorrect: Cheon Dae-yeop, head of the National Court Administration, speaks to reporters during his visit to the Seoul Western District Court in Mapo-gu, Sunday. Yonhap
+Correct: Later in the day, Yoon's supporters marched to the Constitutional Court in Jongno District.
+Incorrect: Later in the day, Yoon's supporters marched to the Constitutional Court in Jongno-gu.
+
+### Style Guide C28
+- For cultural properties, Gyeongbokgung, Changdeokgung, Deoksugung, etc. are written as Gyeongbok Palace, Changdeok Palace, Deoksu Palace, etc.
+Correct: Except for the restricted access to the Secret Garden in Changdeok Palace, all sites can be toured for free.
+Incorrect: Except for the restricted access to the Secret Garden in Changdeokgung, all sites can be toured for free.
+Incorrect: Except for the restricted access to the Secret Garden in Changdeokgung Palace, all sites can be toured for free.
+
+### Style Guide C29
+- The correct format for referring to mountains is Mount [Name]. Avoid abbreviations like Mt. or alternative formats like [Name] Mountain.
+Correct: Tourists often visit Mount Halla, a prominent feature of Jeju Island, to enjoy its scenic hiking trails.
+Incorrect: Tourists often visit Mt. Halla, a prominent feature of Jeju Island, to enjoy its scenic hiking trails.
+Incorrect: Tourists often visit Halla Mountain, a prominent feature of Jeju Island, to enjoy its scenic hiking trails.
+
+### Style Guide C30
+- Numbers from 1 to 9 should be written out as words. For example: one, two, three.
+- Numbers 10 and above should be written as Arabic numerals. For example: 10, 11, 12.
+- When numbers appear directly before a unit of measure, use Arabic numerals, regardless of the number's value.
+Correct: There are five apples in the basket.
+Correct: The project will take 10 days to complete.
+Correct: We expect a 5 percent increase in sales this year.
+Correct: The lake is 3 kilometers wide.
+Correct: The temperature dropped to minus 4 degrees Celsius overnight.
+Incorrect: There are 5 apples in the basket.
+Incorrect: The project will take ten days to complete.
+Incorrect: We expect a five percent increase in sales this year.
+Incorrect: The lake is three kilometers wide.
+Incorrect: The temperature dropped to minus four degrees Celsius overnight.
+
+### Style Guide C31
+- Use "in" for areas like Yeouido, as they are considered specific locations rather than surfaces. Avoid using "on" for such places.
+Correct: The National Assembly building is located in Yeouido, Seoul's financial district.
+Incorrect: The National Assembly building is located on Yeouido, Seoul's financial district.
+
+### Style Guide C32
+- Use Joseon Dynasty to refer to the historical era of Korea. Avoid using Joseon Kingdom, as it does not accurately reflect the widely accepted naming convention.
+Correct: The Joseon Dynasty ruled Korea for over five centuries, shaping much of its cultural heritage.
+Incorrect: The Joseon Kingdom ruled Korea for over five centuries, shaping much of its cultural heritage.
+
+### Style Guide C33
+- Do not begin captions with "This photo shows," "This Jan. 3 photo shows," or "Seen above is," unless absolutely necessary.
+- Do not mention "photo" or explain that the caption describes a photo. Captions inherently describe the image; stating it is redundant.
+Correct: North Korean leader Kim Jong-un visits a farm in Pyongyang, Jan. 3.
+Incorrect: This Jan. 3 photo shows North Korean leader Kim Jong-un visiting a farm in Pyongyang.

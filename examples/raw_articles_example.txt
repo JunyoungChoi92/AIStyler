@@ -1,0 +1,37 @@
+===ARTICLE===
+[TITLE]
+PM to visit Cambodia next week
+[/TITLE]
+
+[BODY]
+The prime minister will travel to Cambodia on March 5.
+The event was held yesterday. 5 companies participated.
+Pres. Biden announced new policy.
+[/BODY]
+
+===ARTICLE===
+[TITLE]
+New AI policy announced
+[/TITLE]
+
+[BODY]
+The government yesterday unveiled a comprehensive AI development plan.
+Officials said the initiative will receive W1.5 trillion in funding.
+The plan targets implementation by 2027.
+[/BODY]
+
+[CAPTION]
+A government official presents the AI development plan at a press conference in Seoul yesterday.
+[/CAPTION]
+
+===ARTICLE===
+[TITLE]
+Korean tech stocks surge
+[/TITLE]
+
+[BODY]
+Stock prices of major Korean technology companies soared on Mon.
+Samsung Electronics gained 3%, while SK Hynix rose 4%.
+Analysts attribute the rally to positive earnings forecasts.
+The KOSPI index closed at 2,850, up 50 points from the previous day.
+[/BODY]

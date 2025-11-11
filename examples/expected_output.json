@@ -1,0 +1,61 @@
+{
+  "corrected_text": "[TITLE]South Korea to invest W1.5 trillion in AI development[/TITLE][BODY]The government announced plans to invest 1.5 trillion won ($1.1 billion) in artificial intelligence development over the next five years. The Ministry of Science and ICT said the investment will focus on developing core AI technologies and nurturing AI talents. \"This is a crucial step for South Korea's future competitiveness,\" said Minister Kim. The ministry also announced it will establish an AI research center in Seoul next year. According to the plan, 60 percent of the budget will be allocated to basic research while 40 percent will support commercialization. South Korea currently ranks fifth globally in AI research output.[/BODY][CAPTION]Minister Kim speaks at a press conference at the government complex in Seoul on Monday.[/CAPTION]",
+  "violations": [
+    {
+      "rule_id": "T01",
+      "component_type": "title",
+      "violation_type": "abbreviation_format",
+      "original_text": "South Korea to invest W1.5 trillion in A.I. development",
+      "violated_text": "A.I.",
+      "description": "Abbreviations should not use periods. Use 'AI' instead of 'A.I.'"
+    },
+    {
+      "rule_id": "A15",
+      "component_type": "body",
+      "violation_type": "conjunction_usage",
+      "original_text": "The Ministry of Science and ICT said that the investment will focus on",
+      "violated_text": "said that",
+      "description": "Avoid using 'that' after 'said' in reported speech. Use 'said the investment' instead."
+    },
+    {
+      "rule_id": "A15",
+      "component_type": "body",
+      "violation_type": "conjunction_usage",
+      "original_text": "The ministry also announced that they will establish",
+      "violated_text": "announced that they",
+      "description": "Avoid using 'that' after 'announced'. Use 'announced it will' instead."
+    },
+    {
+      "rule_id": "A22",
+      "component_type": "body",
+      "violation_type": "number_format",
+      "original_text": "60% of the budget",
+      "violated_text": "60%",
+      "description": "Use 'percent' spelled out instead of '%' symbol in body text."
+    },
+    {
+      "rule_id": "A22",
+      "component_type": "body",
+      "violation_type": "number_format",
+      "original_text": "40% will support",
+      "violated_text": "40%",
+      "description": "Use 'percent' spelled out instead of '%' symbol in body text."
+    },
+    {
+      "rule_id": "A24",
+      "component_type": "body",
+      "violation_type": "number_format",
+      "original_text": "ranks 5th globally",
+      "violated_text": "5th",
+      "description": "Ordinal numbers should be spelled out. Use 'fifth' instead of '5th'."
+    },
+    {
+      "rule_id": "C05",
+      "component_type": "caption",
+      "violation_type": "capitalization",
+      "original_text": "in Seoul on monday",
+      "violated_text": "monday",
+      "description": "Days of the week should be capitalized. Use 'Monday' instead of 'monday'."
+    }
+  ]
+}
