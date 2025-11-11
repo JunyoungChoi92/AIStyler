@@ -1,5 +1,16 @@
 # Korea Times AI Styler - Inference Package 
 
+## ⚠️ Important: Model Files Setup
+
+The model files are compressed and split due to GitHub's file size limitations. 
+
+**To restore the model files, run:**
+```bash
+./RESTORE_MODELS.sh
+```
+
+This will automatically extract all model files from the split archives.
+
 ---
 
 ## 📦 패키지 내용
